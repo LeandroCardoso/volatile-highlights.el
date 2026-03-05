@@ -1030,6 +1030,7 @@ for NAME."
 
 (vhl/define-extension 'transpose 'transpose-chars 'transpose-words
                       'transpose-lines 'transpose-sexps
+                      'transpose-sentences 'transpose-paragraphs
                       'transpose-regions)
 (vhl/install-extension 'transpose)
 

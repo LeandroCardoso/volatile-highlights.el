@@ -1044,8 +1044,7 @@ for NAME."
 ;;-----------------------------------------------------------------------------
 
 (vhl/define-extension 'duplicate 'duplicate-line 'duplicate-dwim)
-(vhl/install-extension 'duplicate (version<= "29" emacs-version))
-
+(vhl/install-extension 'duplicate (version< emacs-version "29"))
 
 
 ;;-----------------------------------------------------------------------------
